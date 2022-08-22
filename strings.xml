@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">menu</string>
-    <string name="teks1">Semua</string>
-    <string name="teks2">Beli lagi</string>
-    <string name="teks3">Pesan Makananmu Sekarang</string>
-    <string name="list1">nikmati cofee untuk menemani pekerjaan sekolahmu !!</string>
-    <string name="list2">Lagi nyari cookies yang asik buat ngemil? Dolmen Cookies aja! Karena kamu dan bestie tahu yang nikmat!</string>
-    <string name="list3">Temukan ramuan pelepas dahaga di setiap mojito kami.Penangkal dahaga bagi haus yang tak berkesudahan.</string>
-    <string name="list4">Tumbuh berkembang bersama es krim sehat berkhasiat dijamin senyum si kecil makin berwarna. Ayo!! Khusus Hari Ini Diskon 20%</string>
+    <string name="app_name">cart</string>
+    <string name="cart">Keranjang Saya</string>
+    <string name="all">Semua</string>
+    <string name="buy">Beli lagi</string>
+    <string name="pesan1">Wah, keranjangmu masih kosong nih</string>
+    <string name="pesan2">yuk pesan makananmu sekarang!</string>
+    <string name="buy1">cari menu</string>
 </resources>
