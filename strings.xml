@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">C4NTEEN</string>
-    <string name="garis_bawah"><u>account</u></string>
+    <string name="app_name">C4NTEEN2</string>
+    <string name="garis_bawah"><u>sign up instead</u></string>
+    <string name="garis_bawah2"><u>forgot your password ?</u></string>
 </resources>
