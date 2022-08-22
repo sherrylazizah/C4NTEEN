@@ -7,20 +7,37 @@
     android:background="@drawable/latar"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Get on C4nteen !"
+        android:text="Hello there"
         android:textColor="#192c47"
         android:textSize="30dp"
         android:textStyle="bold"
         android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.229"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome back!"
+        android:textColor="#192c47"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
 
     <View
         android:id="@+id/view"
@@ -31,23 +48,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.642" />
-
-    <EditText
-        android:id="@+id/editTextTextName"
-        android:layout_width="270dp"
-        android:layout_height="45dp"
-        android:backgroundTint="#ebedf0"
-        android:ems="8"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:textColor="#ebedf0"
-        android:textColorHint="#ebedf0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.399" />
+        app:layout_constraintVertical_bias="0.67" />
 
     <EditText
         android:id="@+id/editTextTexEmail"
@@ -64,7 +65,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -72,7 +73,7 @@
         android:layout_height="45dp"
         android:backgroundTint="#ebedf0"
         android:ems="8"
-        android:hint="Enter Password"
+        android:hint="Password"
         android:inputType="textPassword"
         android:textColor="#ebedf0"
         android:textColorHint="#ebedf0"
@@ -81,72 +82,84 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.465" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="270dp"
-        android:layout_height="45dp"
-        android:backgroundTint="#ebedf0"
-        android:ems="8"
-        android:hint="Confirm Password"
-        android:inputType="textPassword"
-        android:textColor="#ebedf0"
-        android:textColorHint="#ebedf0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.513" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="180dp"
-        android:layout_height="30dp"
-        android:text="by creating an account, you will become a member of this c4nteen"
+        android:layout_width="120dp"
+        android:layout_height="20dp"
+        android:text="@string/garis_bawah2"
         android:textAlignment="center"
         android:textColor="#ebedf0"
         android:textSize="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.61" />
+        app:layout_constraintVertical_bias="0.578" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#a6bbf5"
-        android:hint="Sign - Up"
+        android:hint="Sign - In"
         android:textColorHint="#353f4d"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="#ebedf0"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.695" />
 
+    <Button
+        android:id="@+id/text1"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#aab7bcc9"
+        android:hint="Sign In with Google"
+        android:textAlignment="textStart"
+        android:textColorHint="#192c47"
+        android:textSize="15sp"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="100dp"
+        android:layout_width="60dp"
         android:layout_height="20dp"
-        android:text="i am already have an"
+        android:text="New here ? "
         android:textAlignment="center"
         android:textColor="#ebedf0"
         android:textSize="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.827" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="51dp"
+        android:layout_width="80dp"
         android:layout_height="20dp"
         android:text="@string/garis_bawah"
         android:textAlignment="center"
@@ -155,10 +168,9 @@
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintHorizontal_bias="0.598"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
-
+        app:layout_constraintVertical_bias="0.827" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
