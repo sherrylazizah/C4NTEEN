@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">C4NTEEN2</string>
-    <string name="garis_bawah"><u>sign up instead</u></string>
-    <string name="garis_bawah2"><u>forgot your password ?</u></string>
+    <string name="app_name">menu</string>
+    <string name="teks1">Semua</string>
+    <string name="teks2">Beli lagi</string>
+    <string name="teks3">Pesan Makananmu Sekarang</string>
+    <string name="list1">nikmati cofee untuk menemani pekerjaan sekolahmu !!</string>
+    <string name="list2">Lagi nyari cookies yang asik buat ngemil? Dolmen Cookies aja! Karena kamu dan bestie tahu yang nikmat!</string>
+    <string name="list3">Temukan ramuan pelepas dahaga di setiap mojito kami.Penangkal dahaga bagi haus yang tak berkesudahan.</string>
+    <string name="list4">Tumbuh berkembang bersama es krim sehat berkhasiat dijamin senyum si kecil makin berwarna. Ayo!! Khusus Hari Ini Diskon 20%</string>
 </resources>
